@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background-color: #f2f2f2; /* Light gray background for visual appeal */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Fill the entire viewport height */
+  }
+  
+  .title {
+    margin-bottom: 80px; /* Space between title and button */
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .centered-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
